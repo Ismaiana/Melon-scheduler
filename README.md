@@ -4,7 +4,6 @@
 ## Contents
 * [Tech Stack](#technologies)
 * [Features](#features)
-* [Installation](#install)
 * [To Do](#todo)
 
 
