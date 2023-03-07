@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/static/css/styles.css">
+ 
+   
+
+<title>Homepage</title>
+
+</head>
+
+<body>
+
+    <style>
+
+body {
+  background-image: url('/static/img/watermelon-shape-lollipop-white-table-with-copy-space.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+
+
+    </style>
+
+    <div id="root"></div>
+    <script type="text/jsx" src="/static/js/scheduler.jsx"></script>
+
+   
+ 
+  <br>
+  <div class="login-form">
+      <div class="container">
+          <div class="login-page">
+    </div>
+      </div>
+      <div class="container">
+          <div class="login-page">
+  
+  
+      <form action="/login" method="POST" class="form-login">
+        <h1>Login</h1>
+
+          <p> 
+           Email<br> <input type="email" name="email" style="width:243px;" class="form-control" required>
+          </p>
+
+          <p> 
+           Password <br><input type="password" name="password" style="width:243px;" class="form-control" required>
+          </p>    
+
+
+          <div class="flash-message">
+          {% with messages = get_flashed_messages() %}
+                  {% if messages %}
+                      {% for message in messages %}
+                       <strong>{{ message }}</strong>
+                   {% endfor %}
+                {% endif %}
+            {% endwith %}
+          </div>
+          <p>
+            <div id="buttons-login"></div>
+            <script type="text/jsx" value="Login" src="/static/js/scheduler.jsx"></script>
+          </p>
+          <h4> New here? <a href="/register">Sign Up</a> for a new account. </h4> 
+           </form>
+           </div>
+         </div>
+  </div>
+
+  <script crossorigin src="https://unpkg.com/react@16/umd/react.development.js"></script>
+  <script crossorigin src="https://unpkg.com/react-dom@16/umd/react-dom.development.js"></script>
+  <script crossorigin src="https://cdnjs.cloudflare.com/ajax/libs/babel-standalone/6.26.0/babel.js"></script>
+
+</body>
+</html>
+
+
