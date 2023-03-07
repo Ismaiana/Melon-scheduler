@@ -40,7 +40,7 @@ Schedule Page: Users can search for available appointments for melon tasting via
 ## <a name="todo"></a>To Do
 
 
-- [ ] Implement backend to find date/time available in the data base.
+- [ ] Implement backend code to find date/time available in the data base.
 - [ ] Delete saved appointments.
 
 
