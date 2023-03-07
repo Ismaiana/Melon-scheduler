@@ -1,5 +1,6 @@
 # Isma Melon 🍉
 
+Isma Melon is a web application built as an activity for HB Academy that helps users find available dates and times for melon tasting.
 
 ## Contents
 * [Tech Stack](#technologies)
