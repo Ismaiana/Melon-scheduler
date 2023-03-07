@@ -36,8 +36,8 @@ Login Page: Users can create an account or log in using their email and password
 ## <a name="todo"></a>To Do
 
 
- `- [ ] Implement backend to find date/time available `
- `- [ ] Delete saved appointments `
+- [ ] Implement backend to find date/time available 
+- [ ] Delete saved appointments 
 
 
 
